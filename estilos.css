@@ -99,3 +99,8 @@ footer {
     flex-wrap: wrap ;
     flex-direction: column;
 }
+
+.borderVideo{
+    border-color: red;
+    border-width: 3px;
+}
