@@ -92,3 +92,10 @@ footer {
     margin-bottom: -50px;
     border-top: solid red 2px;
 }
+
+.margemEquipas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap ;
+    flex-direction: column;
+}
