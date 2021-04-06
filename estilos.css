@@ -36,7 +36,8 @@ th{
         grid-template-areas:
         'header header header'
         'menu   menu   menu'
-        'main   main  aside'
+        'main   main  main'
+        'aside aside aside'
         'footer footer footer';
     }
 
