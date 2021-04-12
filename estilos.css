@@ -95,12 +95,18 @@ footer {
 
 .margemEquipas {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap ;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .borderVideo{
     border-color: red;
     border-width: 3px;
+}
+
+figcaption {
+    color: rgb(2, 2, 2);
+    font: italic large sans-serif;
+    padding: 1px;
+    text-align: center;
 }
