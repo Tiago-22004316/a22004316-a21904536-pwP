@@ -16,7 +16,7 @@ footer {grid-area: footer;}
 }
 
 body table{
-    background-color:red
+    background-color:#ff1801
 }
 
 tr{
@@ -24,7 +24,7 @@ tr{
 }
 
 th{
-    background-color: red;
+    background-color: #ff1801;
     color: white;
 }
 
