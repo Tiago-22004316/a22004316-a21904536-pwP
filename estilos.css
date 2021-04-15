@@ -110,3 +110,38 @@ figcaption {
     padding: 1px;
     text-align: center;
 }
+
+nav ul {
+    list-style-type: none;
+    background-color: #ff1801;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li ul {
+    display: none;
+}
+
+nav > ul > li {
+    display: inline;
+    position: relative;
+}
+
+nav a{
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+}
+
+nav a:hover {
+    background-color: rgb(236, 42, 42);
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    top : calc(1em + 5px);
+    left: 0%;
+}
