@@ -157,3 +157,7 @@ nav > ul > li:hover > ul {
     
     max-width: 20%;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
