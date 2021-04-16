@@ -145,3 +145,15 @@ nav > ul > li:hover > ul {
     top : calc(1em + 5px);
     left: 0%;
 }
+
+.vitoria {
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+.img {
+   
+    
+    max-width: 20%;
+}
