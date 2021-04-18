@@ -161,3 +161,20 @@ nav > ul > li:hover > ul {
 html {
     scroll-behavior: smooth;
   }
+
+ .lH {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 25px;
+    text-align:center;
+  }
+.aH {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: 2;
+    opacity: 0.01;
+  }
