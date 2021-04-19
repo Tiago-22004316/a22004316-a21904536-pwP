@@ -234,3 +234,16 @@ html {
     }
   }
   
+.fixed {
+    position: fixed;
+    bottom: 2%;
+    right: 0;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 0px;
+}
