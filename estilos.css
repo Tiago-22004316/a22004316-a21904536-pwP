@@ -97,6 +97,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    text-align: center;
 }
 
 .borderVideo{
@@ -187,3 +188,49 @@ html {
     z-index: 2;
     opacity: 0.01;
   }
+
+  .element {
+    width: 100%;
+    height: 5%;
+    animation: pulse 5s infinite;
+  }
+
+  .element1 {
+    width: 100%;
+    height: 5%;
+    animation: pulse1 5s infinite;
+  }
+
+  .element2 {
+    width: 100%;
+    height: 5%;
+    animation: pulse2 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: green;
+    }
+    100% {
+      background-color: #ff1801;
+    }
+  }
+
+  @keyframes pulse1 {
+    0% {
+      background-color: rgb(85, 206, 206);
+    }
+    100% {
+      background-color: white;
+    }
+  }
+
+  @keyframes pulse2 {
+    0% {
+      background-color: blue;
+    }
+    100% {
+      background-color: #ff1801;
+    }
+  }
+  
