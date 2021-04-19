@@ -101,7 +101,16 @@ footer {
 
 .borderVideo{
     border-color: red;
-    border-width: 3px;
+    border-width: 5px;
+}
+
+.borderImg{
+    border: solid red 5px;
+}
+
+.imagemDireita{
+    float:right;
+    margin-left: 20px;
 }
 
 figcaption {
